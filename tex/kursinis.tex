@@ -1,0 +1,95 @@
+\documentclass{VUMIFPSkursinis}
+\usepackage{algorithmicx}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{bm}
+\usepackage{caption}
+\usepackage{color}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{subfig}
+\usepackage{wrapfig}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+%\usepackage{enumerate}
+
+%PAKEISTA, tarpai tarp sąrašo elementų
+\setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
+\setenumerate{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
+
+% Titulinio aprašas
+\university{Vilniaus universitetas}
+\faculty{Matematikos ir informatikos fakultetas}
+\department{Programų sistemų katedra}
+\papertype{Laboratorinis darbas}
+\title{Kelionių į mėnulį maršrutų programa „Poon“}
+%\titleineng{A project for a music hoarding program MusiX}
+\status{3 kurso 5 grupės studentai}
+\author{Gabrielė Žielytė, Daumantas Šimkus}
+\secondauthor {Nedas Valentinovičius}   % Pridėti antrą autorių 
+\titleineng{}
+
+\supervisor{dr. Vytautas Čyras}
+\date{Vilnius – \the\year}
+
+% Nustatymai
+\setmainfont{Palemonas}   % Pakeisti teksto šriftą į Palemonas (turi būti įdiegtas sistemoje)
+\bibliography{bibliografija}
+
+\begin{document}
+	
+% PAKEISTA	
+\maketitle
+\cleardoublepage\pagenumbering{arabic}
+\setcounter{page}{2}
+
+%TURINYS
+\tableofcontents
+
+\sectionnonum{Anotacija}
+Šiame dokumente aprašoma bilietų pirkimo kelionėms į mėnulį telefoninė programa „Poon“. Darbo tikslas - sukurti patogią, vartotojui suprantamą ir intuityvią vartotojo sąsają.
+Studentų, dirbusių prie šio projekto, kontaktai bei indėlis:
+\begin{itemize}
+\item Gabrielė Žielytė - email
+\item Daumantas Šimkus - email
+\item Nedas Valentinovičius - email
+\end{itemize}
+
+\section{Įvadas}
+Programų sistemos ilgasis pavadinimas yra „Kelionių į Mėnulį maršrutų planavimo programa“, o trumpasis pavadinimas - „Poon“
+
+Ši programa spręs šiuo metu žmonėms dažnai iškylančias problemas, susijusias su skrydžiais į Mėnulį. Egzistuoja daugybė programų, galinčių pateikti skrydžių maršrutus ar leidžiančių užsisakyti bilietus. Bėda tame, kad nera tokios sistemos, kuri leistų atlikti visus su bilieto pirkimu susijusius žingsnius - tokius kaip tvarkaraščio peržiūra, maršrutų matymas, vieno ar daugiau bilietų užsisakymas. Poon tikslas - supaprastinti visą pirkimo procesą nuo tvarkaraščių peržiūros iki pat gryžimo atgal į Žemę. 
+
+\section{Suinteresuotieji}
+Apie suinteresuotuosiuos (keleivius ir apie dar ka nors, kam idomi sita programele)
+
+\section{Vartotojų poreikia}
+Šiame skyriuje bus pateikiami įvairių vartotojų rušių poreikiai bei būsimieji veiksmų scenarijai.
+\subsection{Keleivių poreikiai}
+Kadangi keleiviai sudarys didžiąją dalį vartotojų, šios programos vartotojo sąsaja turi buti pritaikyta butent jiems - greita bei aiški pažiūrejus vos kelias akimirkas.
+\subsubsection{Einamųjų veiklų analizė}
+fuck knows
+\subsubsection{Naudotojų ir veiklų charakteristikų analizė}
+fucker knows
+\subsubsection{Būsimasis naudojimo scenarijus}
+Vartotojas nori užsisakyti skrydį į Mėnulį, kuris iš Žemės išvyktų vakare.
+\begin{enumerate}
+\item Įveda pageidaujamą išvykimo iš Žemės laiką.
+\begin{enumerate}[label*=\arabic*.]
+\item Pasirenka, kad skris tik į vieną pusę.
+\end{enumerate}
+\item Sistema pateikia sąrašą skrydžių, kurie vyksta iš Žemės ir kurių išvykimo laikas yra ne ankstesnis nei nurodyta vartotojo. Taip pat yra nurodyta skrydžio kaina.
+\item Pasirinkęs norimą skrydį vartotojas mato išvykimo ir atvykimo datas, skrydžio kainą, planuojamą laiką bei galimas sėdimas vietas.
+\item Vartotojas suveda asmens dokumento duomenis, elektroninio pašto adresą.
+\item Pasirenka apmokėjimo būdą, bei susimoka už kelionę.
+\item Sumokėjus vartotojas gauna bilietus į savo el.paštą.
+\end{enumerate}
+\subsubsection{Naudotojų poreikiai ir panaudojamumo siekiai}
+net nezinau, ar sito reikia lol
+
+
+\printbibliography[heading=bibintoc, title=Šaltiniai]  % Šaltinių sąraše nurodoma panaudota
+\end{document}
