@@ -69,7 +69,7 @@
 \newcommand{\status}[1]{\def\@status{#1}}
 \newcommand{\titleineng}[1]{\def\@titleineng{#1}}
 \newcommand{\secondauthor}[1]{\def\@secondauthor{#1}}
-
+\newcommand{\thirdauthor}[1]{\def\@thirdauthor{#1}}
 % Pirmos eilutės paragrafe atitraukimas 1 cm
 \setlength{\parindent}{1cm}
 
@@ -131,7 +131,7 @@
         \large
         \singlespacing
         {\begin{tabular}[t]{l l l}%
-        \medskip Atliko: &\; \@status \\
+        \medskip Darbą atliko: &\; \@status \\
         \medskip\bigskip   &\; \@author \hfill &\@signatureplace \\
         \bigskip Darbo vadovas: &\; \@supervisor \hfill &\@signatureplace \\
         % Recenzentas: &\; \@reviewer \hfill \@signatureplace
@@ -144,9 +144,10 @@
         \large
         \singlespacing
         {\begin{tabular}[t]{l l l}%
-        \medskip Atliko: &\; \@status \\
-        \bigskip   &\; \@author \hfill &\@signatureplace \\
-        \medskip\bigskip &\; \@secondauthor \hfill &\@signatureplace \\
+        \bigskip Darbą atliko: &\; \@status \\
+        \medskip   &\; \@author \hfill &\@signatureplace \\
+        \medskip &\; \@secondauthor \hfill &\@signatureplace \\
+        \medskip\bigskip &\; \@thirdauthor \hfill &\@signatureplace \\
         \bigskip Darbo vadovas: &\; \@supervisor \hfill &\@signatureplace \\
         % Recenzentas: &\; \@reviewer \hfill \@signatureplace
         \end{tabular} \par}%
@@ -155,8 +156,9 @@
    }
 
   \begin{center}
-    {\singlespacing \@date \par}%   
+    {\singlespacing \@date \par}%
   \end{center}\par
+
   \@thanks
   \vfil\null
   \end{titlepage}%
