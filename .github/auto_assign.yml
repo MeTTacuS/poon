@@ -1,0 +1,8 @@
+addReviewers: true
+reviewers: 
+  - gabrielezi
+  - MeTTacuS
+  - Cominis
+  
+# 0 is default
+numberOfReviewers: 0
