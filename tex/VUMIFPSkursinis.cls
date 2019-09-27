@@ -64,7 +64,6 @@
 \newcommand{\faculty}[1]{\def\@faculty{#1}}
 \newcommand{\papertype}[1]{\def\@papertype{#1}}
 \newcommand{\department}[1]{\def\@department{#1}}
-\newcommand{\supervisor}[1]{\def\@supervisor{#1}}
 \newcommand{\reviewer}[1]{\def\@reviewer{#1}}
 \newcommand{\status}[1]{\def\@status{#1}}
 \newcommand{\titleineng}[1]{\def\@titleineng{#1}}
@@ -110,8 +109,6 @@
 \renewcommand\maketitle{\begin{titlepage}%
   \checkifdefined{@department}%
     {Tituliniame puslapyje nenurodyta katedra (komanda \protect\department)}
-  \checkifdefined{@supervisor}%
-    {Tituliniame puslapyje nenurodytas darbo vadovas (komanda \protect\supervisor)}
    ~
   \begin{center}
       {\setstretch{1.3}\large \MakeUppercase{\@university} \\
@@ -133,7 +130,6 @@
         {\begin{tabular}[t]{l l l}%
         \medskip Darbą atliko: &\; \@status \\
         \medskip\bigskip   &\; \@author \hfill &\@signatureplace \\
-        \bigskip Darbo vadovas: &\; \@supervisor \hfill &\@signatureplace \\
         % Recenzentas: &\; \@reviewer \hfill \@signatureplace
         \end{tabular} \par}%
      \end{flushright}
@@ -148,7 +144,6 @@
         \medskip   &\; \@author \hfill &\@signatureplace \\
         \medskip &\; \@secondauthor \hfill &\@signatureplace \\
         \medskip\bigskip &\; \@thirdauthor \hfill &\@signatureplace \\
-        \bigskip Darbo vadovas: &\; \@supervisor \hfill &\@signatureplace \\
         % Recenzentas: &\; \@reviewer \hfill \@signatureplace
         \end{tabular} \par}%
      \end{flushright}
@@ -175,14 +170,12 @@
   \global\let\@faculty\@empty
   \global\let\@department\@empty
   \global\let\@papertype\@empty
-  \global\let\@supervisor\@empty
   \global\let\@reviewer\@empty
   \global\let\title\relax
   \global\let\author\relax
   \global\let\date\relax
   \global\let\and\relax
   \global\let\department\relax
-  \global\let\supervisor\relax
   \global\let\@signatureplace\relax
   \global\let\checkifdefined\relax
   \setcounter{footnote}{0}%
