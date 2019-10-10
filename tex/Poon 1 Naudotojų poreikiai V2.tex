@@ -32,8 +32,7 @@
 \thirdauthor {Nedas Valentinovičius}
 \titleineng{}
 
-\supervisor{dr. Vytautas Čyras}
-\date{Vilnius – \the\year, V1}
+\date{Vilnius – \the\year, Galutinė versija}
 
 % Nustatymai
 \setmainfont{Palemonas}   % Pakeisti teksto šriftą į Palemonas (turi būti įdiegtas sistemoje)
@@ -63,23 +62,59 @@ Studentų, dirbusių prie šio projekto, kontaktai bei indėlis:
 \setcounter{page}{4}
 
 \section{Įvadas}
-Programų sistemos ilgasis pavadinimas yra „Kelionių į Mėnulį maršrutų planavimo programa Poon“, o trumpasis pavadinimas tiesiog - „Poon“.
+\textbf{Programų sistemos pavadinimas: } Kelionių į Mėnulį maršrutų planavimo programa „Poon“
+\bigskip
 
-Ši programa spręs šiuo metu žmonėms dažnai iškylančias problemas, susijusias su skrydžiais į Mėnulį. Egzistuoja daugybė programų, galinčių pateikti skrydžių maršrutus ar leidžiančių užsisakyti bilietus. Bėda tame, kad nėra tokios sistemos, kuri leistų atlikti visus su bilieto pirkimu susijusius žingsnius - tokius kaip tvarkaraščio peržiūra, maršrutų matymas, vieno ar daugiau bilietų užsisakymas. Poon tikslas - supaprastinti visą pirkimo procesą nuo tvarkaraščių peržiūros iki pat grįžimo atgal į Žemę.
+\textbf{Trumpasis pavadinimas: } „Poon“
+\bigskip
 
-Kelionėms į Mėnulį tapus realybe, tapo ypač svarbu tvarkinga, aiški, moderni ir svarbiausia saugi kelionių planavimo sistema. Į Mėnulį plūsta žmonės iš skirtingų kultūrų, tikėjimo, puoselėjantys įvairias vertybes. Todėl Poon misija yra gerbti kiekvieną norintįjį skristi, parūpinti jam saugią ir malonią aplinką su kuo aiškesnėmis taisyklėmis kelionėms tarp Žemės ir Mėnulio.
 
 
+
+\textbf{Projekto aprašas: } Kelionėms į Mėnulį tapus realybe, tapo ypač svarbu tvarkinga, aiški, moderni ir svarbiausia saugi kelionių planavimo sistema. Į Mėnulį plūsta žmonės iš skirtingų kultūrų, tikėjimo, puoselėjantys įvairias vertybes. Todėl Poon misija yra gerbti kiekvieną norintįjį skristi, parūpinti jam saugią ir malonią aplinką su kuo aiškesnėmis taisyklėmis kelionėms tarp Žemės ir Mėnulio.
+
+\bigskip
+\textbf{Sprendžiamos problemos: }
+\begin{enumerate}
+\item Šiuo metu bilietai į Mėnulį perkami individualiai iš skrydžio kompanijų, o „Poon“ sistema jas visas apjungs.
+\item Maršrutų patikrinimas ir bilietų pirkimas yra atskiri veiksmai, kuriuos ši programa apjungia į vieną vartotojo sąsają
+\item Netikslūs, su skryžių kompanijomis nesusinchronizavę maršrutų tvarkaraščių puslapiai klaidina vartotojus, o „Poon“ programoje matomi tvarkaraščiai bus sinchronizuojami tiesiogiai su skrydžių bendrovėmis.
+\item Šiuo metu kelių bilietų pirkimas yra itin komplikuotas, o „Poon“ programoje tai bus taip pat paprasta, kaip pirkti vieną bilietą.
+\item Nėra galimybės iškart užsisakyti bilietą atgal, tačiau ši programa išsprendžia šią problemą iškart siūlydama įsigyti bilietus atgal su bet kuria atgal parskraidinti galinčia skrydžių kompanija.
+\item Nėra patogios statistikos apie kiekvieną skrydžių kompaniją. „Poon“ anonimiškai ves statistiką ir ja dalinsis su visu pasauliu, kad būtų aiškiai matomi skirtingų skrydžių bendrovių populiarumai tarp vartotojų.
+\end{enumerate}
 
 \section{Suinteresuotieji}
+Šio skyriaus tikslas yra išskirti suinteresuotųjų asmenų grupes tam, kad būtų galima nustatyti, kokie funkcionalumai yra reikalingi, kokie tiksliai yra naudotojų poreikiai, kam ši sistema bus naudingiausia bei atsižvelgti į konkurentų sistemas, jų neišnaudotas galimybes bei galimas tobulintinas sritis.
 
-\subsection{Pirminiai} Šios programos pirminiai suinteresuotieji yra pilnamečiai asmenys, norintys planuoti keliones į Mėnulį. Kadangi pasaulio valstybėse pilnametystė yra reglamentuota skirtingai. Poon pilnametis asmuo yra tas, kuris pagal savo valstybės įstatymus, pilnai atsako už save. Pavyzdys būtų mokslinius tyrimus atliekantys asmenys. Kadangi skrydžiai į Mėnulį įprastu dalyku tapo neseniai, šis dangaus kūnas vis dar traukia mokslininkus bei tyrinėtojus. Programa, leidžianti užsisakyti bilietus tiek šiandien, tiek už mėnesio vykstantiems skrydžiams labai praverstų staiga į tyrimų stotį norintiems skristi ar po kurio laiko vykstančius tyrimus planuojantiems mokslininkams. Pirminių suinteresuotųjų esminiai lūkesčiai būtų aiškus ir greitas skrydžių pasirinkimas, lengva apmokėjimo sistema, bei galimybė bilietus saugoti ilgą laiką.
+\subsection{Pirminiai} 
+Šios programos pirminiai suinteresuotieji yra \textbf{pilnamečiai asmenys, norintys planuoti keliones į Mėnulį}. Kadangi pasaulio valstybėse pilnametystė yra reglamentuota skirtingai. Poon pilnametis asmuo yra tas, kuris pagal savo valstybės įstatymus, pilnai atsako už save. Pavyzdys būtų mokslinius tyrimus atliekantys asmenys. Kadangi skrydžiai į Mėnulį įprastu dalyku tapo neseniai, šis dangaus kūnas vis dar traukia mokslininkus bei tyrinėtojus. Programa, leidžianti užsisakyti bilietus tiek šiandien, tiek už mėnesio vykstantiems skrydžiams labai praverstų staiga į tyrimų stotį norintiems skristi ar po kurio laiko vykstančius tyrimus planuojantiems mokslininkams. 
 
-\subsection{Antriniai} Antroji suinteresuotųjų grupė yra kelionių organizatoriai, norintys į savo polisinių kelionių programas įtraukti ir skrydžius į Mėnulį. Dėl mūsų programos nesudėtingos bei suprantamoos vartotojo sąsajos, leidžiančios vienu pirkimu užsakyti bilietus keliems klientams, ši vartotojų grupė galės smarkiai palengvinti savo darbą organizuojant keliones. Didžiausias jų lūkestis yra aiški vartotojo sąsaja, kad būtų galima patogiai planuoti klientų keliones, keliais papaudimais matyti visų reikiamų bilietų datas ir kainas; taip pat lengvas bei sklandus didelių bilietų kiekių pirkimas bei gebėjimas juos perduoti klientams.
+Pirminių suinteresuotųjų esminiai lūkesčiai būtų:
+\begin{enumerate}
+\item Aiškus ir greitas skrydžių pasirinkimas
+\item Lengva apmokėjimo sistema
+\item Galimybė bilietus saugoti ilgą laiką
+\item Gebėjimas bilietus perduoti kitiems asmenims
+\end{enumerate}
 
-\subsection{Tretiniai} Tretiniai suinteresuotieji būtų šios sistemos konkurentai, nes jų veiklą veikia šios sistemos sėkmė arba nesėkmė. Šiuo metu rinkoje egzistuoja ne viena kompanija, organizuojanti skrydžius į Mėnulį. Kiekviena iš jų turi savą bilietų pirkimo sistemą, kur galima nusipirkti tik vienos skrydžių kompanijos bilietus, taip pat kiekviena naudojasi skirtinga mokėjimo sistema, o tai kelia vartotojams daug bėdų, ypač kai ilgą laiką buvo naudojamasi vienos kompanijos paslaugomis ir yra nuspręsta pradėti naudotis kitos kompanijos siūlomais skrydžiais. 
+\subsection{Antriniai} 
+Antriniai šios programos suinteresuotieji yra \textbf{statistinių analizių vedėjai}. Ši suinteresuotųjų grupę naudosis mūsų programos pateikiamomis statistikomis tam, kad galėtų gauti tikslią bei visas skrydžių įmonės apimančią statistiką. Šiai grupei svarbu žinoti, kiek mėnesinių klientų turi skirtingos skrydžių kompanijos, kurie skrydžiai populiariausi ir panašias statistikas, kurias „Poon“ programa ves.
 
-Konkretūs "Poon" konkurentų pavyzdžiai būtų "Comet express" ir "PlanetStar". Jų programos leidžia nusipirkti tik jų kompanijos bilietus, todėl bilietų ir datų skaičius yra gana limituotas, taip pat jų vartotojo sąsajos atrodo ir yra naudojamos skirtingai. 
+Antrinių suinteresuotųjų esminiai lūkesčiai būtų:
+\begin{enumerate}
+\item Tiksli bei aiški statistinė skrydžų analizė
+\item Duomenų anonimiškumas
+\end{enumerate}
+
+\subsection{Tretiniai} Tretiniai suinteresuotieji būtų šios \textbf{sistemos konkurentai}, nes jų veiklą veikia šios sistemos sėkmė arba nesėkmė. Šiuo metu rinkoje egzistuoja ne viena kompanija, organizuojanti skrydžius į Mėnulį. Kiekviena iš jų turi savą bilietų pirkimo sistemą, kur galima nusipirkti tik vienos skrydžių kompanijos bilietus, taip pat kiekviena naudojasi skirtinga mokėjimo sistema, o tai kelia vartotojams daug bėdų, ypač kai ilgą laiką buvo naudojamasi vienos kompanijos paslaugomis ir yra nuspręsta pradėti naudotis kitos kompanijos siūlomais skrydžiais. 
+
+Konkretūs "Poon" konkurentų pavyzdžiai būtų "Comet express" ir "PlanetStar". Šios sistemos turi kelias neišnaudotas galimybės, kurias „Poon“ sieks pagerinti ir implementuoti į savąją sitema:
+\begin{enumerate}
+\item Konkurentų programos leidžia nusipirkti tik jų kompanijos bilietus, todėl bilietų ir datų skaičius yra gana limituotas
+\item Jų vartotojo sąsajos atrodo ir yra naudojamos skirtingai, o „Poon“ sistemos sąsają bus galima naudoti prikti bilietus iš abiejų kompanijų
+\item Programos savo statistikas viešina tik kartą per pusmetį, o „Poon“ sistemos teikiami duomenys bus matomi nuolatos.
+\end{enumerate}
 
 Poon bus primoji programa, leidžianti pirkti bilietus iš visų didžiųjų skrydžių organizatorių bei leidžianti susimokėti visais pagrindiniais mokėjimo būdais. Tai išspręs didžiąją dalį problemų, šiuo metu kylančių noritintiems skristi į Mėnulį asmenims.
 
