@@ -145,13 +145,15 @@ Pateiktame apraše išdėstytos esamos veiklos problemos ir neišnaudotos galimy
 \end{itemize}
 
 \subsubsection{Antra kompiuterizuojama veikla}
-[TRUMPAS VIENO SAKINIO SCENARIJUAUS APRAŠYMAS]
+Aprašoma į darbą skubančio žmogaus bilietų pirkimo procedūra: 
 
-\textit{KITAS BLOGAS NAUDOJIMO SCENARIJUS, ŠIUO METU KELIANTIS ŽMOGUI PROBLEMAS}
+\textit{Alisa skubėdama į darbą telefonu perka bilietus skrydžiui į Mėnulį, kuris vyks kitos dienos vakare. Telefone ji atsidaro „PlanetStar“ programėlę, kurioje pamato, kad įios kompanijos skrydžių bilietai tam reisui yra išpirkti. Tuomet ji atsidaro „Comet Express“ programėlę, kurioje įsigyja bilietą, kuris yra išsaugomas pačioje programėlėje. Tuomet Alisa vėl atsidaro pirkimų langą, ir susiranda skrydį atgal iš Mėnulio į Žemę. Ji vėl atlieka visą pirkimo procedūrą ir išsisaugo bilietą.}
 
 Pateiktame apraše išdėstytos esamos veiklos problemos ir neišnaudotos galimybės:  
 \begin{itemize}
-\item ČIA SURAŠOMOS VISOS TOS PROBLEMOS, KURIOS MATOMOS SCENARIJUJE
+\item Tenka naudotis keliomis sistemomis, kad rasti patogius skrydžių laikus
+\item Įsigyti bilietai yra išsaugomi pačioje programėlėje, kurioje jie buvo pirkti. Vartotojui neduodamas pasirinkimas, kur norėtų juos išsisaugoti
+\item Nepasiūloma iškart įsigyti bilietus skrydžiui atgal, tenka iš naujo atlikti visą pirkimo procedūrą.
 \end{itemize}
 
 \subsubsection{Trecia kompiuterizuojama veikla - JEI TOKIA YRA. SITAS VIS KARTOJAMAS BLOKAS}
@@ -165,25 +167,98 @@ Pateiktame apraše išdėstytos esamos veiklos problemos ir neišnaudotos galimy
 \end{itemize}
 
 \subsubsection{Naudotojų ir veiklų charakteristikos}
-DAR VIENAS BLOKAS TEKSTO PAGAL TAI, KAS YRA PARAŠYTA DABARTINĖJE MŪSŲ BIBLIJOJE 3.4 SKYRIUJE. CIA BENDRAI APRASOMOS VISOS AUKSCIAU KOMPIUTERIZUOTOS VEIKLOS
+\textbf{Alisos charakteristikos: } Pavyzdiniame scenarijuje Alisa yra gerai įvaldžiusi mobilųjį prietaisą, supranta, kaip reikia pirkti bilietus įvairiose sistemose. Taigi ji yra gerai patyrusi tokių sistemų naudotoja. Jos motyvacija yra greitai ir be nesklandumų įsigyti bilietus, nes suprantama, kad skrydžių į Mėnulį paslaugomis ji naudojasi dažnai. Demografinės charakteristikos nenurodytos, tačiau galima jį priskirti jaunam ar vidutiniam amžiui, kai speciali parama nereikalinga. 
+
+Veiklos dažnis: bilietų pirkimas yra itin dažnas veiksmas, ypač dirbantiems žmonėms. Šį veiksmą jie atlieka kelis kartus per savaitę, todėl svarbu pirkimo procesą padaryti paprastą ir prieinamą visiems vartotojams.
+
+Veiklos trukmė: bilietu pirkimas viduriniškai užtrunka apie 10 minučių. Ši veikla yra vykdoma nuosekliai bei individualiai.
+
+Veiklos aplinka: aprašytame scenarijuje Alisa judėjo, aktyviai skubėjo į darbą, todėl aplinka yra nerami.
 
 \subsection{Būsimieji panaudojimo scenarijai}
 Toliau bus pateikti keli pavyzdiniai panaudojimo scenarijai, kurie padės išspręsti vartotojams kylančias problemas
 
 \subsubsection{Pirmasis scenarijus}
-VIENO SAKINIO APRAŠYMAS
+Scenarijus, aprašantis paprasto pirkimo procesą, kuriame vartotojas su draugu nori skristi į mėnulį šios dienos pabaigoje
 
-KAIP KOMENTARUOSE SĄRAŠAS SU VISU SCENARIJUMI
+\begin{enumerate}
+\item Vartotojas pagrindiniame meniu pasirenka pasirinkima „Pirkti bilietus“
+\item Vartotojas supildo informaciją apie skrydį.
+\begin{enumerate}[label*=\arabic*.]
+\item Pažymi, jog skris du žmonės.
+\item Pažymi, jog skris tik į vieną pusę.
+\item Pasirenka, jog skris iš Žemės.
+\item Pasirenka, jog išvykti nori šiandien po 18:00 val.
+\end{enumerate}
+\item  Sistema pateikia sąrašą skrydžių, kurie vyksta iš Žemės ir kurių išvykimo laikas yra ne ankstesnis nei nurodyta vartotojo ir turi bent dvi laisvas vietas. Prie kiekvieno skrydžio yra nurodyta kaina.
+\item Vartotojas pasirenką norimą skrydį.
+\item Sistema parodo to skrydžio išvykimo ir atvykimo datas su planuojamais laikais, skrydžio kainą bei galimas sėdimas vietas.
+\item Vartotojas pasirenka sėdimas vietas ir spaudžia mokėti.
+\begin{enumerate}[label*=\arabic*.]
+\item Vartotojas suveda asmens dokumento duomenis.
+\item Įveda elektroninio pašto adresą.
+\item Pasirenka apmokėjimo būdą.
+\item Susimoka už kelionę.
+\end{enumerate}
+\item Sumokėjus sistema išsiunčia bilietus į el.paštą.
+\item Vartotojas viena iš bilietų persiunčia draugui.
+\end{enumerate}
 
 \subsubsection{Antrasis scenarijus}
-VIENO SAKINIO APRAŠYMAS
+Scenarijus, aprašantis sistemos paruošimą bei naudojimą žmonėms su negalia
+\begin{enumerate}
+\item Atsisiuntus programą, vartotojui leidžiama tiek balsu, tiek paspaudimu pasirinkti, ar turi neregystės negalią.
+\item Vartotojas pasako, kad turi neregystė, ir jo programa automatiškai nustatoma naudojimui žmogui su neregyste.
+\item Atsidaro mokėjimo ruošinių langas, kuriame vartotojas gali išvardinti duomenis, reikalingus pirkimui.
+\item Sistema išsaugo jo mokėjimo būdą ir atidaro pagrindinį meniu.
+\item Vartotojas pasako, kad nori pirkti skrydį.
+\begin{enumerate}[label*=\arabic*.]
+\item Pasako, jog skris vienas.
+\item Pasako, jog skris tik į vieną pusę.
+\item Pasako, jog skris iš Žemės.
+\item Pasako, jog išvykti nori šiandien po 15:00 val.
+\end{enumerate}
+\item Sistema pateikia sąrašą skrydžių, kurie vyksta iš Žemės ir kurių išvykimo laikas yra ne ankstesnis nei nurodyta vartotojo ir turi bent dvi laisvas vietas. Prie kiekvieno skrydžio yra nurodyta kaina, kuri yra pasakoma per garsiakalbius ar kitus garso įrenginius.
+\item Vartotojas pasirenką norimą skrydį.
+\item Sistema pasako to skrydžio išvykimo ir atvykimo datas su planuojamais laikais, skrydžio kainą bei galimas sėdimas vietas.
+\item Vartotojas pasako norimas sėdimas vietas ir sako „Mokėti pirmuoju mokėjimo būdu“.
+\item Sistema sumoka už užsakymą ir atsiunčia pirkejui bilietą elektroniniu paštu
+\end{enumerate}
 
-KAIP KOMENTARUOSE SĄRAŠAS SU VISU SCENARIJUMI
+\subsubsection{Trečiasis scenarijus}
+Scenarijus, aprašantis situaciją, kai kelionių organizatorius nori suplanuoti klientų porai atostogas. Pirmiausia jie keliaus po Žemę, vėliau skris į Mėnulį ir atgal.
+\begin{enumerate}
+\item  Organizatorius supildo informaciją apie skrydį.
+\begin{enumerate}[label*=\arabic*.]
+\item Pažymi, jog skris du žmonės
+\item Pažymi, jog skris į abi puses.
+\item Pasirenka, jog skris iš Žemės.
+\item  Pasirenka, jog išvykti nori Spalio 13d., o grįžti Spalio 20d.
+\end{enumerate}
+\item  Sistema pateikia sąrašą skrydžių, kurie vyksta iš Žemės ir kurių išvykimo laikas yra ne ankstesnis nei nurodyta vartotojo, o išvykimo laikas ne vėlesnis, ir turi bent dvi laisvas vietas. Prie kiekvieno skrydžio yra nurodyta kaina.
+\item Kelionių organizatorius pasirenka tokius skrydžius, kurie tinka jo kuriamam kelionės planui
+\item Sistema parodo tų skrydžių išvykimo ir atvykimo datas su planuojamais laikais, skrydžių kainą bei galimas sėdimas vietas.
+\item Organizatorius parodo planą klientams
+\item Organizatorius persiunčia bilietų nuorodas klientams
+\item Klientams duodama laiko pagalvoti, ar jiems patinka kelionės planas
+\end{enumerate}
 
 \subsection{Naudotojo poreikia bei panaudojamumo siekiai}
-PARAŠYTI POREIKIUS, KURIE KILO IŠ VISKO, KAS BUVO PARAŠYTA AUKŠČIAU - ABIEJU BLOGŲ SCENARIJŲ BEI KANORS DAR SUGALVOT, NES 15 REIKIA. PAVYZDYS YRA 3.6 SKYRIUJE, TEN KAIP TIK APIE SKRYDŽIUS ŠNEKA
-
-
+Pateikiami naudotojų poreikiai, matomi patobulintuose scenarijuose ir nusakantys gaunamą naudą:
+\begin{enumerate}[start=1,label={\bfseries S\arabic*}]
+\item Po programos paleidimo į įvairų programos funkcionalumą - bilietų pirkimą, tvarkaraščių peržiūrą - galima patekti per vieną paspaudimą.
+\item Palaikomas paprastas ir į bendra funkcionalumą integruotas kelių bilietų pirkimas.
+\item Paprastas ir intuityvus informacijos apie skrydi įvedimas, trunkantis ne ilgiau nei 2 minutes.
+\item Detalus galimų vietų aprašas, kuriame vieną norimą sėdimą vietą pasirinkti užtrunka apie 15 sekundžių.
+\item Žinodamas programos funkcionalumą vartotojas sau galės įsigyti bilietus greičiau nei per 3 minutes
+\item Žinodamas programos funkcionalumą vartotojas keliems asmenims galės įsigyti bilietus per ne daugiau nei 10 minučių, priklausomai nuo to, keliems žmonėms perka bilietus.
+\item Bilietai yra išsiunčiami į pasirinktą elektroninį paštą.
+\item Galimybė turėti iš anksto paruoštus mokėjimo būdus arba kiekvieną kartą perkant bilietus mokėti kitaip.
+\item Be jokių įkrovimo langų bilietų pirkimo metu vartotojui turi būti pateikiami galimi skrydžiai pasirinktame laiko intervale išrikiuoti nuo pigiausių iki brangiausių.
+\item Sistema yra pritaikyta naudojimui žmonėms su neregystės negalia.
+\item Bilietų nuorodas galima nesunkiai persiųsti kitiems žmonėms.
+\item Sistema gauna tikslius bei atnaujintus skrydžių laikus per 10 sekundžių nuo programos įjungimo.
+\end{enumerate}
 
 \section{Statistinių analizių vedėjų poreikiai}
 Šiame skyriuje bus pateikiama detali statistinių analizių vedėjų poreikių, siekių ir kitų tikslų analizė.
@@ -207,7 +282,7 @@ Pateiktame apraše išdėstytos esamos veiklos problemos ir neišnaudotos galimy
 \end{itemize}
 
 \subsubsection{Naudotojų ir veiklų charakteristikos}
-Veiklos apraše Antonas yra gerai įvaldes klaviatūra, supranta, kaip turėtų veikti statistikos paieškos sistemos. Tai rodo, kad jis turi vidutiniškai arba gerai patyrusio tokių sistemų naudotojo įgūdžius. Jo motyvacija surasti statistiką yra ta, kad tai yra jo darbas, tad nenuostabu, kad yra gerai įvaldęs statistikos terminologiją bei tiksliai žino, kaip reikia filtruoti informaciją. Demografinės charakteristikos nenurodytos, tačiau galima jį priskirti jaunam ar vidutiniam amžiui, kai speciali parama nereikalinga. 
+Veiklos apraše Antonas yra gerai įvaldęs klaviatūra, supranta, kaip turėtų veikti statistikos paieškos sistemos. Tai rodo, kad jis turi vidutiniškai arba gerai patyrusio tokių sistemų naudotojo įgūdžius. Jo motyvacija surasti statistiką yra ta, kad tai yra jo darbas, tad nenuostabu, kad yra gerai įvaldęs statistikos terminologiją bei tiksliai žino, kaip reikia filtruoti informaciją. Demografinės charakteristikos nenurodytos, tačiau galima jį priskirti jaunam ar vidutiniam amžiui, kai speciali parama nereikalinga. 
 
 Veiklos dažnis: statistikos paieška nėra dažnas veiksmas, atliekamas dažniausiai karta per savaitę ar rečiau. Tokio dažnio veikloms svarbu, kad informacija būtų saugoma ilgesnį laiką ir būtų visuomet prieinama tokiems vartotojams. 
 
@@ -238,7 +313,7 @@ Statistikos departamento darbuotojas nori gauti pastarųjų 30 dienų dviejų ko
 \subsection{Naudotojo poreikiai bei panaudojamumo siekiai}
 Pateikiami keli naudotojo poreikiai bei panaudojamumo siekiai, matomi iš aprašomos situacijos:
 
-\begin{enumerate}
+\begin{enumerate}[start=13,label={\bfseries S\arabic*}]
 \item Rinkdamasis, kokią statistiką nori matyti, vartotojas visą filtravimui reikalingą informaciją gali įvesti viename lange.
 \item Filtravimui reikalingos informacijos įvedimas neužtrunka ilgiau nei 30 sekundžių.
 \item Informacija informacijos filtravimui buna jau įkrauta sistemoje atidarant filtravimo langą, todėl nepatiriami jokie nesklandumai naviguojant.
@@ -252,43 +327,3 @@ SKYRIUS APIE INTERFEISUS
 
 \printbibliography[heading=bibintoc, title=Šaltiniai]  % Šaltinių sąraše nurodoma panaudota
 \end{document}
-
-
-%Vartotojas su draugu nori skristi į mėnulį šios dienos pabaigoje:
-%\begin{enumerate}
-%\item  Vartotojas supildo informaciją apie skrydį.
-%\begin{enumerate}[label*=\arabic*.]
-%\item Pažymi, jog skris du žmonės.
-%\item Pažymi, jog skris tik į vieną pusę.
-%\item Pasirenka, jog skris iš Žemės.
-%\item  Pasirenka, jog išvykti nori šiandien po 18:00 val.
-%\end{enumerate}
-%\item  Sistema pateikia sąrašą skrydžių, kurie vyksta iš Žemės ir kurių išvykimo laikas yra ne ankstesnis nei nurodyta vartotojo ir turi bent dvi laisvas vietas. %Prie kiekvieno skrydžio yra nurodyta kaina.
-%\item Vartotojas pasirenką norimą skrydį.
-%\item Sistema parodo to skrydžio išvykimo ir atvykimo datas su planuojamais laikais, skrydžio kainą bei galimas sėdimas vietas.
-%\item Vartotojas pasirenka sėdimas vietas ir spaudžia mokėti.
-%\begin{enumerate}[label*=\arabic*.]
-%\item Vartotojas suveda asmens dokumento duomenis.
-%\item Įveda elektroninio pašto adresą.
-%\item Pasirenka apmokėjimo būdą.
-%\item Susimoka už kelionę.
-%\end{enumerate}
-%\item Sumokėjus sistema išsiunčia  bilietus į el.paštą.
-%\end{enumerate}
-
-%Kelionių organizatorius nori suplanuoti klientų porai atostogas. Pirmiausia jie keliaus po Žemę, vėliau skris į Mėnulį ir atgal.
-%\begin{enumerate}
-%\item  Organizatorius supildo informaciją apie skrydį.
-%\begin{enumerate}[label*=\arabic*.]
-%\item Pažymi, jog skris du žmonės
-%\item Pažymi, jog skris į abi puses.
-%\item Pasirenka, jog skris iš Žemės.
-%\item  Pasirenka, jog išvykti nori Spalio 13d., o grįžti Spalio 20d.
-%\end{enumerate}
-%\item  Sistema pateikia sąrašą skrydžių, kurie vyksta iš Žemės ir kurių išvykimo laikas yra ne ankstesnis nei nurodyta vartotojo, o išvykimo laikas ne %vėlesnis, ir turi bent dvi laisvas vietas. Prie kiekvieno skrydžio yra nurodyta kaina.
-%\item Kelionių organizatorius pasirenka tokius skrydžius, kurie tinka jo kuriamam kelionės planui
-%\item Sistema parodo tų skrydžių išvykimo ir atvykimo datas su planuojamais laikais, skrydžių kainą bei galimas sėdimas vietas.
-%\item Organizatorius parodo planą klientams
-%\item Organizatorius persiunčia bilietų nuorodas klientams
-%\item Klientams duodama laiko pagalvoti, ar jiems patinka kelionės planas
-%\end{enumerate}
