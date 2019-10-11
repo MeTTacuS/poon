@@ -94,10 +94,11 @@ Programos savininko lūkestis yra sukurti nagrinėjamoms suinteresuotųjų grup�
 
 Pirminių suinteresuotųjų esminiai lūkesčiai būtų:
 \begin{enumerate}
-\item Aiškus ir greitas skrydžių pasirinkimas
-\item Lengva apmokėjimo sistema
-\item Galimybė bilietus saugoti ilgą laiką
-\item Gebėjimas bilietus perduoti kitiems asmenims
+\item Aiškus ir greitas skrydžių pasirinkimas \label{itm:aisku}
+\item Lengva apmokėjimo sistema\label{itm:apmokejimas}
+\item Galimybė bilietus saugoti ilgą laiką\label{itm:saugoti}
+\item Gebėjimas bilietus perduoti kitiems asmenims\label{itm:perduoti}
+\item Pigių skrydžių radimas\label{itm:pigu}
 \end{enumerate}
 
 \subsection{Antriniai} 
@@ -105,8 +106,8 @@ Antriniai šios programos suinteresuotieji yra \textbf{statistinių analizių ve
 
 Antrinių suinteresuotųjų esminiai lūkesčiai būtų:
 \begin{enumerate}
-\item Tiksli bei aiški statistinė skrydžų analizė
-\item Duomenų anonimiškumas
+\item Tiksli bei aiški statistinė skrydžų analizė\label{itm:analize}
+\item Duomenų anonimiškumas\label{itm:anonim}
 \end{enumerate}
 
 \subsection{Tretiniai} Tretiniai suinteresuotieji būtų šios \textbf{sistemos konkurentai}, nes jų veiklą veikia šios sistemos sėkmė arba nesėkmė. Šiuo metu rinkoje egzistuoja ne viena kompanija, organizuojanti skrydžius į Mėnulį. Kiekviena iš jų turi savą bilietų pirkimo sistemą, kur galima nusipirkti tik vienos skrydžių kompanijos bilietus, taip pat kiekviena naudojasi skirtinga mokėjimo sistema, o tai kelia vartotojams daug bėdų, ypač kai ilgą laiką buvo naudojamasi vienos kompanijos paslaugomis ir yra nuspręsta pradėti naudotis kitos kompanijos siūlomais skrydžiais. 
@@ -323,7 +324,54 @@ Pateikiami keli naudotojo poreikiai bei panaudojamumo siekiai, matomi iš apraš
 
 
 \section{Įkvėpiančios interfeisų idėjos}
-SKYRIUS APIE INTERFEISUS
+\subsection{Skrydžio paieška}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.8]{img/info.png}
+    \caption{Norimo skrydžio paieška}
+    \label{img:info1}
+\end{figure}
+Šis interfeiso pavyzdys yra malonus akiai, jis patenkina pirminių siunteresuotųjų lūkesčius aiškiai ir greitai pasirinkti norimų skrydžių informaciją (Lūkestis Nr. \ref{itm:aisku}), bei antrinių suinteresuotųjų lūkečius prisijungti prie sistemos anonimiškai (Lūkestis Nr. \ref{itm:anonim}), nes į sistemą nereikia įvesti jokių asmeninių duomenų, kol bilietai nėra perkami.
+
+\subsection{Datos pasirinkimas}
+\subsubsection{Datos pasirinkimas kalendoriuje}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.6]{img/hopper.jpg}
+    \caption{Data1}
+    \label{img:data1}
+\end{figure}
+Paspaudus ant išvykimo ir grįžimo datų gali pasirodyti kalendorius, toks, koks parodytas paveikslėlyje nr. \ref{img:data1}. Tai padėtų geriau suvokti visos kelionės, kurią vartotojas pasirinko, trukmę, patenkintų lūkestį aiškiai pasirinkti skrydžių datas (Lūkestis Nr. \ref{itm:aisku}).
+
+\subsubsection{Data su vidutine kaina}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=1]{img/skyscanner.png}
+    \caption{Data2}
+    \label{img:data2}
+\end{figure}
+Šis interfeiso pavyzdys patenkinta pirminių vartotojų lūkesčius greitai ir efektyviai rasti pigiausius bilietus (Lūkestis Nr. \ref{itm:pigu}), bei statistinių analizių vedėjų norą matyti bilietų kainas pagal datą dar būnant pradiniame sistemos lange- tam, kad būtų surinkti duomenys statistinei kainų analizei užtenka kelių paspaudimų (Lūkestis Nr. \ref{itm:analize}).
+
+\subsection{Bilietų radimas}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.8]{img/deposit.png}
+    \caption{Bilietų radimas}
+    \label{img:radimas1}
+\end{figure}
+Šis dizainas leidžia aiškiai pamatyti sąrašą skrydžių norima data, taip pat yra atrinkti pigiausi, trumpiausi, bei rekomenduojami skrydžiai  (Lūkestis Nr. \ref{itm:aisku} ir  \ref{itm:pigu}). Dizainas yra gana minimalus, nėra elementų, kurie blaškytų vartotojo dėmesį, papildoma indormacija gali būti rasta paspaudus ant dominančio skrydžio. Tai palengvina pirminių suinteresuotojų veiklą sistemoje.
+
+\newpage
+\subsection{Turimų bilietų peržiūra}
+\begin{figure}[htp]
+\centering
+\includegraphics[width=.3\textwidth]{img/dribble1.png}\hfill
+\includegraphics[width=.3\textwidth]{img/dribble2.png}\hfill
+\includegraphics[width=.3\textwidth]{img/dribble3.png}
+\caption{Bilietų peržiūra}
+\label{fig:figure3}
+\end{figure}
+Šiame pavyzdyje vartotojas, atsidaręs išvykimo bilietą gali vienu braukimu į šoną pamatyti ir grįžimo atgal skrydžio bilietą. Tai patenkina keliautojų norą bilietus saugoti ilgą laiką, bei peržvelgti juos greitai ir patogiai (Lūkestis Nr. \ref{itm:aisku} ir \ref{itm:pigu}).
 
 \printbibliography[heading=bibintoc, title=Šaltiniai]  % Šaltinių sąraše nurodoma panaudota
 \end{document}
