@@ -1,0 +1,135 @@
+\documentclass{VUMIFPSkursinis}
+\usepackage{algorithmicx}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{bm}
+\usepackage{caption}
+\usepackage{color}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{subfig}
+\usepackage{wrapfig}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+%\usepackage{enumerate}
+
+%PAKEISTA, tarpai tarp sąrašo elementų
+\setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
+\setenumerate{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
+
+% Titulinio aprašas
+\university{Vilniaus universitetas}
+\faculty{Matematikos ir informatikos fakultetas}
+\department{Programų sistemos}
+\papertype{Laboratorinis darbas}
+\title{Kelionių į Mėnulį maršrutų planavimo programos „Poon“ maketai}
+\status{3 kurso 5 grupės studentai}
+\author{Gabrielė Žielytė}
+\secondauthor {Daumantas Šimkus}
+\thirdauthor {Nedas Valentinovičius}
+\titleineng{}
+
+\date{Vilnius – \the\year, Galutinė versija}
+
+% Nustatymai
+\setmainfont{Palemonas}   % Pakeisti teksto šriftą į Palemonas (turi būti įdiegtas sistemoje)
+\bibliography{bibliografija}
+
+\begin{document}
+	
+% PAKEISTA	
+\maketitle
+
+
+\sectionnonumnocontent{Anotacija}
+Šiame dokumente parodomi bei aprašomi bilietų pirkimo kelionėms į Mėnulį telefoninės programos „Poon“ panaudojimo maketai. Darbo tikslas - aiškiai ir vienareikšmiškai parodyti programos veikimą pasitelkus interkatyvius elektroninius maketus, realizuojant naudojimo bei alternatyvius scenarijus. Studentų, dirbusių prie šio projekto, kontaktai bei indėlis:
+\begin{itemize}
+\item Gabrielė Žielytė - gabriele.zielyte@mif.stud.vu.lt. 
+\item Daumantas Šimkus - daumantas.simkus@mif.stud.vu.lt. 
+\item Nedas Valentinovičius - nedas.valentinovicius@mif.stud.vu.lt. 
+\end{itemize}
+\thispagestyle{empty}
+
+%TURINYS
+\thispagestyle{empty}
+\tableofcontents
+
+\cleardoublepage\pagenumbering{arabic}
+\setcounter{page}{4}
+
+\section{Įvadas}
+\textbf{Programų sistemos pavadinimas: } Kelionių į Mėnulį maršrutų planavimo programa „Poon“
+\bigskip
+
+\textbf{Trumpasis pavadinimas: } „Poon“
+\bigskip
+
+
+
+
+\textbf{Projekto aprašas: } Kelionėms į Mėnulį tapus realybe, tapo ypač svarbu tvarkinga, aiški, moderni ir svarbiausia saugi kelionių planavimo sistema. Į Mėnulį plūsta žmonės iš skirtingų kultūrų, tikėjimo, puoselėjantys įvairias vertybes. Todėl Poon misija yra gerbti kiekvieną norintįjį skristi, parūpinti jam saugią ir malonią aplinką su kuo aiškesnėmis taisyklėmis kelionėms tarp Žemės ir Mėnulio.
+
+\section{Gabrielės Žielytės maketas}
+\subsection{Įgyvendinti naudojimo scenarijai bei panaudojamumo siekiai}
+*************INSERT INFORMATION*************
+
+\subsection{Informacijos architektūros sprendimo pagrindimas}
+*************INSERT INFORMATION*************
+
+\subsection{Maketavimo priemonė}
+*************INSERT INFORMATION*************
+
+\section{Daumanto Šimkaus maketas}
+\subsection{Įgyvendinti naudojimo scenarijai bei panaudojamumo siekiai}
+*************INSERT INFORMATION*************
+
+\subsection{Informacijos architektūros sprendimo pagrindimas}
+*************INSERT INFORMATION*************
+
+\subsection{Maketavimo priemonė}
+*************INSERT INFORMATION*************
+
+\section{Nedo Valentinovičiaus maketas}
+\subsection{Įgyvendinti naudojimo scenarijai bei panaudojamumo siekiai}
+Šis maketas įgyvendina 4.2 panaudojimo scenarijų, randamą „Kelionių į Mėnulį maršrutų planavimo programa „Poon““ dokumente. Minėtame scenarijuje aprašomas atvejis, kai statistikos departamento darbuotojas nori gauti tam tikro laikotarpio statistiką apie vieną ar kelias kompanijas. 
+
+Įgyvendinami \textbf{S1}, \textbf{S13}, \textbf{S14}, \textbf{S15}, \textbf{S17} panaudojamumo siekiai. Visi šie siekiai yra susiję su greitu informacijos pateikimu vartotojui, veiksmų atlikimu greitai bei su nedaug paspaudimų.
+
+\subsection{Informacijos architektūros sprendimo pagrindimas}
+Naudojama „Iš viršaus žemyn“ informacijos pateikimo architektūra. Toks pasirinkimas atliktas todėl, kad tai yra tapę standartu mobiliosiose programėlėse - viršuje matoma, kur dabar esame, ekrano viduryje pateikiama reikalinga informacija bei įvairūs pasirinkimai, o apačioje - navigacijos priemonės, leidžiančios persikelti į kitus langus ar grįžti atgal. 
+
+Esant neskalndumams ar reikalaujant smulkių įvesčių, naudojami iššokantyt pop'up tipo langai, kuriuose galima įveisti reikiamą informaciją. Net juose išlaikoma „ iš viršaus žemyn“ strukūra - aukščiau esančiuose laukuos galima vesti duomenis, o žemiau pateikiami navigacijos mygtukai.
+
+Didžiajai daliai pasirinkimų naudojami arba „checkbox“, arba „drop-down“ pasirinkimai. Toks sprendimas priimtas todėl, kad telefone šie pasirinkimai yra lengvai spaudžiami pirštais ir jie yra itin tinkami pasirinkimams iš nedaug variantų. 
+
+\subsection{Maketavimo priemonė}
+Maketavimui buvo naudojama „Balsamiq“ maketavimo priemonė. Spalvos nebuvo naudojamos, tačiau elementai, ant kurių makete galima paspausti, yra išryškinti oranžine spalva, netrukdančia suvokti bendrą maketo vaizdą.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\printbibliography[heading=bibintoc, title=Šaltiniai]  % Šaltinių sąraše nurodoma panaudota
+\end{document}
