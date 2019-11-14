@@ -135,19 +135,21 @@ APIBENDRINIMAS
  \hline
  Euristika & Defekto sunkumas & Komentaras \\
  \hline\hline
- Būsenos matomumas & Vidutinis & Nėra nei vieno „pop-up" lango, klausiančio vartotojo, ar šis yra tikras savo pasirinkimu.\\ 
+ Būsenos matomumas & Sunkus & Nėra nei vieno „pop-up" lango, klausiančio vartotojo, ar šis yra tikras savo pasirinkimu.\\ 
  \hline
  Būsenos matomumas & Vidutinis & Vartotojui gali būti nelabai aišku, kad norint patekti į kitą langą, reikia braukti pirštu.\\
  \hline
  Būsenos matomumas: atsakas & Nedidelis & Nėra krovimo („loading") langų, kurie nurodytų vartotojui, jog sistema krauna langą. \\
  \hline
+ Būsenos matomumas & Vidutinis & Ne iki galo parodoma informacijos architekrūra: lango viršuje nėra nurodyta, kur vartotojas tuo metu yra. \\  
+ \hline   
  Naudotojo valdomas dialogas: aiškūs išėjimai & Vidutinis & Nėra mygtuko „quit" bilietų pirkimo operacijos pabaigoje arba ankstesniuose languose. \\
- \hline
+ \hline              
 \end{tabular}	
 \end{center}
 
 \subsubsection{Sunkesnių pažeidimų apžvalga}
-JEI NEBUS SUNKESNIU PAZEIDIMU SITO DALYKO JAUCIU NET NEREIKS
+Sistemoje nėra nei vieno „pop-up" lango, klausiančio vartotojo, ar šis yra tikras savo pasirinkimu. Tokio lango egzistavimas yra reikalingas, pavyzdžiui po to, kai vartotojas pasirenka sėdėjimo vietas. Vartotojas gali būti netyčia pasirinkęs ne tas vietas, kurių norėjęs - „pop-up" langas paklaustų vartotojo, ar jis tikras, ir tuomet vartotojui norint būtų leista pasirinkti kitas vietas.
 
 \subsubsection{Apibendrinimas}
 Šiame makete vartotojas yra gana nuosekliai informuotas apie tai, ką jis yra pasirinkęs ir, kas vyksta dabartinėje būsenoje, bet trūksta „pop-up" ir krovimo langų, bei aiškumo, norint pereiti į kitą langą.
@@ -156,7 +158,7 @@ Naudojama suprantama kalba naudotojui, dialogas paprastas, vaizdas įprastas, at
 
 Sistema leidžia naudotojui grįžti į praeitą langą, yra rodomos nukeliautas kelias (apskritimai lango apačioje), bet nėra „quit" mygtuko.
 
-Langų elementai išdėstyti darniai, pasirinkimai aiškūs, išvaizda tokia pati visoje sistemoje.
+Langų elementai išdėstyti darniai, bet ne stiliumi iš viršaus į apačią. Pasirinkimai aiškūs, išvaizda tokia pati visoje sistemoje.
 
 Vartotojas yra apsaugotas nuo klaidingo pasirinkimo ar duomenų įvedimo, lango apačioje raudona spalva nurodant, kad pasirinkimas netinkamas. Meniu hierarchija paprasta, naudotojas nepasiklysta.
 
@@ -196,24 +198,24 @@ APIBENDRINIMAS
  \hline
  Euristika & Defekto sunkumas & Komentaras \\
  \hline\hline
- tavo mama & 6 & 87837 \\ 
+ Būsenos matomumas: atsakas & Nedidelis & Sistema neparodo, kiek dar liko padaryti veiksmų iki galutinio rezultato.\\ 
  \hline
- 2 & 7 & 78 \\
- \hline
- 3 & 545 & 778 \\
- \hline
- 4 & 545 & 18744 \\
- \hline
- 5 & 88 & 788 \\  % kopijuoti tokias
- \hline                 % dvi eilutes kiekvienam defektui
 \end{tabular}	
 \end{center}
 
 \subsubsection{Sunkesnių pažeidimų apžvalga}
-JEI NEBUS SUNKESNIU PAZEIDIMU SITO DALYKO JAUCIU NET NEREIKS
+Sunkesnių pažeidimų nėra.
 
 \subsubsection{Apibendrinimas}
-APIBENDRINIMAS
+Informacijos architektūra parodyta tinkamai, vartotojas visada įspėjamas apie tai, kas vyksta: yra „loading", bei „pop-up" langų.
+
+Kalba yra suprantama naudotojui, nėra retesnių terminų, suprantamai pateikti pasirinkimai. Langų struktūra pastovi.
+
+Naudotojas nėra pririštas prie vieno naudojimo būdo: yra galimybė atšaukti, grįžti, išeiti.
+
+Klaidų prevencija: daugumoje pasirinkimo laukų yra pateikti naudingi standartiniai pasirinkimai, pvz.: laukelyje „Select file format" galima pasirinkti tik iš nurodytų variantų.
+
+Dizainas nėra perkrautas, dėmesys kreipiamas į užduoties atlikimą.
 
 \subsection{Daumanto Šimkaus įvertinimas}
 \subsubsection{Euristinis tikrinimas}
