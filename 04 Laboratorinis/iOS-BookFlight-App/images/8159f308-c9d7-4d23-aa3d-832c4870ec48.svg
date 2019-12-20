@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="30px" viewBox="0 0 32 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>plane icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="DEPARTURE-FLIGHT-" transform="translate(-171.000000, -103.000000)" fill="#FFFFFF">
+            <g id="Flight-title" transform="translate(22.000000, 85.000000)">
+                <path d="M179.435225,36.3430701 L167.271014,28.5158637 L167.271014,19.9059367 C167.271014,18.6066204 166.252262,17.5577748 164.990225,17.5577748 C163.728188,17.5577748 162.709436,18.6066204 162.709436,19.9059367 L162.709436,28.5158637 L150.545225,36.3430701 L150.545225,39.4739526 L162.709436,35.5603494 L162.709436,44.1702765 L159.668383,46.5184384 L159.668383,48.8666003 L164.990225,47.301159 L170.312067,48.8666003 L170.312067,46.5184384 L167.271014,44.1702765 L167.271014,35.5603494 L179.435225,39.4739526 L179.435225,36.3430701 Z" id="plane-icon" transform="translate(164.990225, 33.212188) rotate(-270.000000) translate(-164.990225, -33.212188) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

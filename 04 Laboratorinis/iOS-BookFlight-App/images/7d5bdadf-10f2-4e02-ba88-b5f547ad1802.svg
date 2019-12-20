@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Fill 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SEARCH-FLIGHTS---round-trip" transform="translate(-227.000000, -613.000000)" fill="#939393">
+            <g id="Bottom-menu" transform="translate(1.000000, 598.000000)">
+                <g id="check-in-tab" transform="translate(216.000000, 15.000000)">
+                    <g id="check-in-icon" transform="translate(10.000000, 0.000000)">
+                        <g id="Group-3">
+                            <path d="M12.4323182,23.414 C6.45140909,23.414 1.58595455,18.5480909 1.58595455,12.5671818 C1.58595455,6.58627273 6.45140909,1.72081818 12.4323182,1.72081818 C18.4132273,1.72081818 23.2786818,6.58672727 23.2786818,12.5676364 C23.2786818,18.5485455 18.4132273,23.414 12.4323182,23.414 M12.4323182,0.135363636 C5.57686364,0.135363636 4.54545455e-05,5.71263636 4.54545455e-05,12.5676364 C4.54545455e-05,19.4230909 5.57686364,24.9999091 12.4323182,24.9999091 C19.2877727,24.9999091 24.8645909,19.4230909 24.8645909,12.5676364 C24.8641364,5.71263636 19.2873182,0.135363636 12.4323182,0.135363636" id="Fill-1"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
