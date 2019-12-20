@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="22px" viewBox="0 0 12 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>previous icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PASSENGERS" transform="translate(-21.000000, -45.000000)" fill="#FFFFFF">
+            <path d="M23.305084,56 L32.7204938,46.623339 C32.9007781,46.4439831 33,46.2051525 33,45.9508475 C33,45.6967288 32.9007781,45.4578983 32.7204938,45.2783559 C32.5402094,45.0988136 32.300392,45 32.0452232,45 C31.7898672,45 31.5502369,45.0988136 31.3699526,45.2783559 L21.2792722,55.3275085 C20.9069093,55.698339 20.9069093,56.301661 21.2792722,56.6724915 L31.3699526,66.7216441 C31.5526707,66.9036102 31.786123,67 32.0452232,67 C32.3043234,67 32.5377757,66.9036102 32.7204938,66.7216441 C32.9007781,66.5422881 33,66.3034576 33,66.0491525 C33,65.7950339 32.9007781,65.5562034 32.7204938,65.376661 L23.305084,56 Z" id="previous-icon"></path>
+        </g>
+    </g>
+</svg>

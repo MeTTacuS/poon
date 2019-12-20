@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="8px" viewBox="0 0 13 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SEARCH-FLIGHTS---round-trip" transform="translate(-335.000000, -186.000000)" stroke="#FFFFFF" fill-rule="nonzero" stroke-width="0.55" fill="#FFFFFF">
+            <g id="From" transform="translate(26.000000, 159.000000)">
+                <polygon id="Shape" transform="translate(315.295414, 31.317061) rotate(-90.000000) translate(-315.295414, -31.317061) " points="317.816505 25.3456323 311.998112 31.3159637 317.816505 37.2884895 318.592717 36.5213237 313.522888 31.3159637 318.592717 26.1127981"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

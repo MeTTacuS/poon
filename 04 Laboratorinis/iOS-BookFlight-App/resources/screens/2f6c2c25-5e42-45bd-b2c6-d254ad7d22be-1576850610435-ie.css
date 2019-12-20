@@ -1,0 +1,58 @@
+#s-2f6c2c25-5e42-45bd-b2c6-d254ad7d22be #s-BgDegradePurple {
+  -pie-background: linear-gradient(to bottom,#2F2F55,#5461B8);
+  -pie-poll: false;
+  -ms-transform: rotate(0.0deg);
+}
+#s-2f6c2c25-5e42-45bd-b2c6-d254ad7d22be #s-Image_2 {
+  -ms-transform: rotate(0.0deg);
+}
+#s-2f6c2c25-5e42-45bd-b2c6-d254ad7d22be #s-MobileSignal_7 {
+  -ms-transform: rotate(0.0deg);
+}
+#s-2f6c2c25-5e42-45bd-b2c6-d254ad7d22be #s-Carrier_7 {
+  -ms-transform: rotate(0.0deg);
+}
+#s-2f6c2c25-5e42-45bd-b2c6-d254ad7d22be #s-WiFi_7 {
+  -ms-transform: rotate(0.0deg);
+}
+#s-2f6c2c25-5e42-45bd-b2c6-d254ad7d22be #s-AM_7 {
+  -ms-transform: rotate(0.0deg);
+}
+#s-2f6c2c25-5e42-45bd-b2c6-d254ad7d22be #s-Paragraph_10 {
+  -ms-transform: rotate(0.0deg);
+}
+#s-2f6c2c25-5e42-45bd-b2c6-d254ad7d22be #s-Battery_7 {
+  -ms-transform: rotate(0.0deg);
+}
+#s-2f6c2c25-5e42-45bd-b2c6-d254ad7d22be #s-MobileSignal_8 {
+  -ms-transform: rotate(0.0deg);
+}
+#s-2f6c2c25-5e42-45bd-b2c6-d254ad7d22be #s-Carrier_8 {
+  -ms-transform: rotate(0.0deg);
+}
+#s-2f6c2c25-5e42-45bd-b2c6-d254ad7d22be #s-AM_8 {
+  -ms-transform: rotate(0.0deg);
+}
+#s-2f6c2c25-5e42-45bd-b2c6-d254ad7d22be #s-Paragraph_11 {
+  -ms-transform: rotate(0.0deg);
+}
+#s-2f6c2c25-5e42-45bd-b2c6-d254ad7d22be #s-Battery_8 {
+  -ms-transform: rotate(0.0deg);
+}
+#s-2f6c2c25-5e42-45bd-b2c6-d254ad7d22be #s-SEARCHFLIGHTS {
+  -ms-transform: rotate(0.0deg);
+}
+.devMobile #jim-container .ui-page {
+  overflow-x: hidden;
+}
+.non_jim_mobile #simulation {
+  overflow-x: hidden;
+}
+.web #simulation {
+  overflow-x: hidden;
+}
+#s-2f6c2c25-5e42-45bd-b2c6-d254ad7d22be > #loadMark {
+  width: 1px;
+  visibility: hidden;
+  display: none;
+}
